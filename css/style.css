@@ -1,0 +1,235 @@
+
+/*----------------------------------
+        General Styles
+------------------------------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clearfix::before,
+.clearfix::after,
+.container::before,
+.container::after,
+[class*='layout-']::before,
+[class*='layout-']::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.column {
+    float: left;
+}
+
+.layout-3-cols > .column {
+    width: 33.33%;
+}
+.layout-2-cols > .column {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+/*----------------------------------
+**********Header Styles*************
+------------------------------------*/
+
+.site-header {
+    background-color: #000;
+    color: white;
+    margin: 3px;
+}
+.logo-text {
+    padding: 0 100px;
+    text-transform: uppercase;
+}
+.logo-text span {
+    color: #25C8AD;
+    font-weight: bold;
+}
+
+.logo-text p{
+    padding: 15px 0;
+}
+
+.site-header ul {
+    list-style: none;
+}
+.site-header li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 0;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 100px;
+}
+
+
+
+
+/*----------------------------------
+**********Logo Styles*************
+------------------------------------*/
+
+.logo {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+81,cccccc+100 */
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 81%, #cccccc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #eeeeee 81%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #eeeeee 81%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+.chair-img {
+    padding: 25px 130px;
+    margin-top: 20px;
+}
+.chair-img p {
+    font-size: 45px;
+    margin-top: 120px;
+    float: left;
+    color: #25C8AD;
+}
+.logo-description {
+    padding: 150px 0;
+}
+.logo-description h1 {
+    text-transform: uppercase;
+}
+.logo-description span {
+    color: #25C8AD;
+    font-weight: bold;
+}
+.logo-short-description {
+    padding: 15px 0;
+    width: 350px;
+}
+.logo-button {
+    color: white;
+    background-color: #25C8AD;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 75px;
+}
+.next-picture-right p {
+    float: right;
+    font-size: 45px;
+    margin-right: 350px;
+    color: #25C8AD;
+}
+
+
+/*----------------------------------
+**********first Offert Styles*************
+------------------------------------*/
+
+.first-offert {
+    padding: 30px 100px;
+}
+
+.text-chair {
+    height: 50px;
+    width: 330px;
+    position: absolute;
+    margin: -70px 20px 0 0;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.text-chair p {
+    border-bottom: 5px solid #25C8AD;
+    width: 150px;
+    position: absolute;
+    font-weight: bold;
+    margin: 17px 0 0 20px;
+}
+
+.text-title {
+    border: 0.4px solid grey;
+    width: 329px;
+    height: 225px;
+    padding: 15px;
+}
+.text-title p{
+    margin-top: 15px;
+}
+.text-title strong{
+    border-bottom: 5px solid #25C8AD;
+    width: 150px;
+}
+
+
+/*----------------------------------
+**********Prices Styles*************
+------------------------------------*/
+
+.prices {
+    padding: 30px 100px;
+    background-color: lightgray;
+}
+.price-name {
+    border-bottom: 5px solid #25C8AD;
+    width: 350px;
+}
+
+/* First Window : */
+
+.first-window {
+    width: 300px;
+    height: 500px;
+    border: 2px solid grey;
+    margin-top: 70px;
+}
+.circle1 {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    margin: -50px 0 0 110px;
+    border-radius: 50%;
+    background-color: #FFFFF0;
+}
+.circle2 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 19px 19px;
+    background-color: lightgrey;
+}
+
+/*----------------------------------
+**********Contact Styles*************
+------------------------------------*/
+
+
+
+/*----------------------------------
+**********Footer Styles*************
+------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
