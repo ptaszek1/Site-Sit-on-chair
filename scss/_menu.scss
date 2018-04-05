@@ -1,0 +1,132 @@
+
+.site-header {
+  background-color: #000;
+  color: white;
+  ul {
+    list-style: none;
+  }
+  ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 0;
+    text-transform: uppercase;
+    margin-right: 5em;
+    text-align: center;
+    cursor: pointer;
+  }
+  .logo-text {
+    padding: 0 100px;
+    text-transform: uppercase;
+    a {
+      color: white;
+      text-decoration: none;
+      p {
+        padding: 15px 0;
+        span {
+          color: $Aqua1;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+.menu-inside {
+  padding: 10px;
+  position: absolute;
+  margin-top: 15px;
+  display: none;
+  left: 48%;
+  .trangle {
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent #000000;
+    position: absolute;
+    margin: -10px 50px;
+  }
+   li {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+  }
+}
+
+li:hover > ol{
+  display: block;
+}
+
+.burger {
+  width: 40px;
+  height: 50px;
+  margin-right: 40px;
+  float: right;
+  display: none;
+  overflow: hidden;
+  margin-top: 10px;
+  div {
+    width: 100%;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    transition: 0.2s all;
+  }
+}
+
+.burger-line {
+
+}
+
+.burger {
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(255,255,255,0);
+  animation: burger 2s infinite;
+}
+
+.burger:hover {
+  animation: none;
+}
+
+@-webkit-keyframes burger {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 24px rgba(255,255,255, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255,0,0, 0);
+  }
+}
+
+
+
+.menu2 {
+  position: absolute;
+  background: black;
+  color: white;
+  margin: 11px 0;
+  top: 5%;
+  width: 200px;
+  text-align: center;
+  transition: 3s all;
+}
+.menu-inside2 {
+  display: none;
+}
+.menu2 li {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+
+
+@media (max-width: 930px) {
+  .burger {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}

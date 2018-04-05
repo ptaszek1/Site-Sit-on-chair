@@ -1,0 +1,78 @@
+@import "_variables.scss";
+
+@mixin chairP () {
+  border-bottom: 5px solid $Aqua1;
+  width: 15vw;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 17px 0 0 20px;
+}
+@mixin chair () {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: -80px 20px 0 0;
+  background-color: rgba(255,255,255,0.5);
+}
+@mixin imgPosition () {
+  position: relative;
+  overflow: hidden;
+}
+@mixin imgTransform () {
+  max-width: 100%;
+  transition: all 0.3s;
+}
+
+.first-offert {
+  padding: 30px 100px;
+  .img-box1 {
+    @include imgPosition;
+    img {
+      @include imgTransform;
+    }
+  }
+  .img-box2 {
+    @include imgPosition;
+    img {
+      @include imgTransform;
+    }
+  }
+  .text-chair1 {
+    @include chair;
+    p {
+      @include chairP;
+    }
+  }
+  .text-chair2 {
+    @include chair;
+    p {
+      @include chairP;
+    }
+  }
+
+}
+
+.img-box1:hover img {
+  transform: scale(1.1);
+}
+.img-box2:hover img {
+  transform: scale(1.1);
+}
+
+.text-title {
+  border: 0.4px solid grey;
+  width: 329px;
+  padding: 15px;
+  strong {
+    border-bottom: 5px solid $Aqua1;
+    width: 150px;
+  }
+  p{
+    margin-top: 15px;
+  }
+}
+
+
+
+

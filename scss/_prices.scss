@@ -1,0 +1,158 @@
+.prices {
+  padding: 30px 100px;
+  background-color: #F1F1F1;
+}
+.price-name {
+  border-bottom: 5px solid $Aqua1;
+  width: 350px;
+}
+
+/* First Window with price : */
+
+.first-window {
+  width: 301px;
+  height: 501px;
+  border: 3px solid #CECED6;
+  margin-top: 70px;
+  background-color: #F9F9F9;
+}
+.first-window h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: $Aqua1;
+  text-transform: uppercase;
+}
+.circle1 {
+  border: 3px solid #CECED6;
+  width: 80px;
+  height: 80px;
+  margin: -50px 0 0 110px;
+  border-radius: 50%;
+  background-color: #FFFFF0;
+}
+.circle2 {
+  border: 3px solid #CECED6;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 17px 18px;
+  background-color: #C2C2C2;
+}
+.circle3 {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 25px auto;
+  border: 3px solid #CECED6;
+}
+
+.circle1-middle {
+  width: 80px;
+  height: 80px;
+  margin: -50px 0 0 110px;
+  border-radius: 50%;
+  background-color: $Aqua2;
+  position: absolute;
+  padding: 20px 20px;
+}
+.circle2-middle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+}
+.product1-seconds {
+  width: 100%;
+  color: $lightGr;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #fff;
+}
+.background-product1 {
+  background-color: #F1F1F1 !important;
+}
+
+.price p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.circle3 p {
+  font-size: 25px;
+  padding: 40px 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #C2C2C2;
+}
+
+.product1 {
+  width: 100%;
+  color: #A8A8A8;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #E4E4E4;
+}
+.product1-second {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px 0;
+  color: #9B9B9B;
+}
+
+/* Second Window with price : */
+
+.second-window {
+  width: 301px;
+  height: 501px;
+  border: 3px solid $Aqua1;
+  margin-top: 70px;
+  background-color: $Aqua2;
+}
+.second-window h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.second-circle2 p {
+  color: $Aqua2;
+}
+.layout-3-cols sup {
+  font-size: 10px;
+}
+.button-prices button {
+  color: white;
+  background-color: $Aqua1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 95px;
+  margin-left: 100px;
+  width: 100px;
+}
+
+.button-prices-two button {
+  color: white;
+  background-color: $Aqua1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 15px;
+  margin-left: 100px;
+  width: 100px;
+}
+
+.button-prices-third button {
+  color: $Aqua1;
+  background-color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 55px;
+  margin-left: 100px;
+  width: 100px;
+}

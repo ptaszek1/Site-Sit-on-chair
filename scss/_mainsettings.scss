@@ -1,0 +1,44 @@
+@import "_variables.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif ;
+}
+
+.clearfix::before,
+.clearfix::after,
+[class*='layout-']::before,
+[class*='layout-']::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+}
+
+.layout-3-cols > .column {
+  width: 33.33%;
+}
+.layout-2-cols > .column {
+  width: 50%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.remove {
+  display: none;
+}

@@ -1,0 +1,78 @@
+@import "_variables.scss";
+
+.logo {
+  background: #eeeeee;
+  background: -moz-linear-gradient(top, #eeeeee 81%, #cccccc 100%);
+  background: -webkit-linear-gradient(top, #eeeeee 81%,#cccccc 100%);
+  background: linear-gradient(to bottom, #eeeeee 81%,#cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+  a {
+    color: $Aqua2;
+  }
+}
+.chair-img {
+  position: relative;
+  img {
+    margin-top: 50px;
+    margin-left: 70px;
+    display: none;
+  }
+  p {
+    font-size: 55px;
+    color: $Aqua1;
+    top: 45%;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+
+.visible{
+  display: inline-block !important;
+}
+
+.logo-description {
+  margin-top: 150px;
+  position: relative;
+  h1 {
+    text-transform: uppercase;
+  }
+  span {
+    color: $Aqua1;
+    font-weight: bold;
+  }
+  .logo-short-description {
+    padding: 15px 0;
+    width: 350px;
+  }
+  .logo-button {
+    color: white;
+    background-color: $Aqua1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 75px;
+  }
+  p:last-child {
+    position: absolute;
+    margin-top: -27px;
+    right: 10%;
+    top: 30%;
+    font-size: 55px;
+    color: $Aqua1;
+    cursor: pointer;
+  }
+}
+
+.selectSlide {
+  padding: 15px;
+  text-align: center;
+  .smallCircle {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: black;
+    padding: 8px;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+}

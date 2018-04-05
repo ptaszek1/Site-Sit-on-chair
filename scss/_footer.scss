@@ -1,0 +1,26 @@
+@import "_variables.scss";
+
+footer {
+  padding: 15px;
+}
+
+.fonts-images {
+  margin-left: 250px;
+}
+
+.site-footer h3{
+  float: right;
+  margin-top: 5px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $lightGr;
+}
+.site-footer span {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $lightGr;
+}
+.site-footer p {
+  color: $lightGr;
+  margin-top: 5px;
+}
