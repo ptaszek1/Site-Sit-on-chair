@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded' , function () {
     var burgerDiv = document.querySelector('.burger div');
 
     burger.addEventListener('click' ,function (event) {
-        if (menu2.style.right === '-210px') {
-            menu2.classList.remove('remove');
-            menu2.style.right = '0';
+        if (menu2.style.top === '-210px') {
+            //menu2.classList.remove('remove');
+            menu2.style.top = '7%';
             burgerLine[1].classList.add('remove');
             burgerLine[0].style.transform = 'rotate(45deg)';
             burgerLine[0].style.marginTop = '19px';
@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded' , function () {
             burgerLine[2].style.transform = 'rotate(-45deg)';
             burgerDiv.style.marginBottom = '-4px';
         } else {
-            menu2.style.right = '-210px';
-            menu2.classList.add('remove');
+            menu2.style.top = '-210px';
+            //menu2.classList.add('remove');
             burgerLine[1].classList.remove('remove');
             burgerLine[0].style.transform = null;
             burgerLine[0].style.marginTop = null;
